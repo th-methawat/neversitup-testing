@@ -74,20 +74,25 @@ Nest is [MIT licensed](LICENSE).
 
 ## Project Structure
 
-- `src/`: This directory contains all the source code for the application.
-- `src/core/permutations/permutations.service.ts`: This file is the permutations service for the application.
-- `src/core/permutations/permutations.service.spec.ts`: This file is the unit tests for permutations service.
-- `src/core/odd-number/odd-number.service.ts`: This file is the odd-number service for the application.
-- `src/core/odd-number/odd-number.service.spec.ts`: This file is the unit tests for odd-number service.
-- `src/core/smiley-faces/smiley-faces.service.ts`: This file is the smiley-faces service for the application.
-- `src/core/smiley-faces/smiley-faces.service.spec.ts`: This file is the unit tests for smiley-faces service.
-- `src/app.controller.ts`: This file is the main controller for the application.
-- `src/app.service.ts`: This file is the main service for the application.
-- `src/app.module.ts`: This file is the main module for the application.
-- `src/main.ts`: This file is the entry point for the application.
-- `test/`: This directory contains all the test files for the application.
-- `.gitignore`: This file specifies which files and directories to ignore in git.
-- `nest-cli.json`: This file contains configurations for the Nest CLI.
-- `package.json`: This file contains the list of project dependencies and scripts.
-- `README.md`: This file contains information about the project and instructions on how to install, run, and test the application.
-- `tsconfig.build.json` and `tsconfig.json`: These files contain TypeScript compiler options.
+... bash
+.
+├── src                                           # This directory contains all the source code for the application.
+│    ├── core
+│    │   ├── permutations                         
+│    │   │   ├── permutations.service.ts          # This file is the permutations service for the application.
+│    │   │   └── permutations.service.spec.ts     # This file is the unit tests for permutations service
+│    │   ├── odd-number                           
+│    │   │   ├── odd-number.service.ts            # This file is the odd-number service for the application.
+│    │   │   └── odd-number.service.spec.ts       # This file is the unit tests for odd-number service
+│    │   └── smiley-faces                         
+│    │   │   ├── smiley-faces.service.ts          # This file is the smiley-faces service for the application.
+│    │   │   └── smiley-faces.service.spec.ts     # This file is the unit tests for smiley-faces service
+│    ├── app.controller.ts                        # This file is the main controller for the application.
+│    ├── app.service.ts                           # This file is the main service for the application.
+│    ├── app.module.ts                            # This file is the main module for the application.
+│    └── main.ts                                  # This file is the entry point for the application.
+├── .gitignore                                    # This file specifies which files and directories to ignore in git.
+├── nest-cli.json                                 # This file contains configurations for the Nest CLI.
+├── package.json                                  # This file contains the list of project dependencies and scripts.
+└── README.md                                     # This file contains information about the project and instructions on how to install, run, and test the application.
+...
