@@ -74,23 +74,20 @@ Nest is [MIT licensed](LICENSE).
 
 ## Project Structure
 
-Neversitup testing project                      
-├ src                                           
-│    ├ core                                     
-│    │   ├ permutations                         
-│    │   │   ├ permutations.service.ts          
-│    │   │   └ permutations.service.spec.ts     
-│    │   ├ odd-number                           
-│    │   │   ├ odd-number.service.ts            
-│    │   │   └ odd-number.service.spec.ts       
-│    │   └ smiley-faces                         
-│    │       ├ smiley-faces.service.ts          
-│    │       └ smiley-faces.service.spec.ts     
-│    ├ app.controller.ts                        
-│    ├ app.service.ts                           
-│    ├ app.module.ts                            
-│    └ main.ts                                  
-├ .gitignore                                    
-├ nest-cli.json                                 
-├ package.json                                  
-└ README.md                                     
+- `src/`: This directory contains all the source code for the application.
+- `src/core/permutations/permutations.service.ts`: This file is the permutations service for the application.
+- `src/core/permutations/permutations.service.spec.ts`: This file is the unit tests for permutations service.
+- `src/core/odd-number/odd-number.service.ts`: This file is the odd-number service for the application.
+- `src/core/odd-number/odd-number.service.spec.ts`: This file is the unit tests for odd-number service.
+- `src/core/smiley-faces/smiley-faces.service.ts`: This file is the smiley-faces service for the application.
+- `src/core/smiley-faces/smiley-faces.service.spec.ts`: This file is the unit tests for smiley-faces service.
+- `src/app.controller.ts`: This file is the main controller for the application.
+- `src/app.service.ts`: This file is the main service for the application.
+- `src/app.module.ts`: This file is the main module for the application.
+- `src/main.ts`: This file is the entry point for the application.
+- `test/`: This directory contains all the test files for the application.
+- `.gitignore`: This file specifies which files and directories to ignore in git.
+- `nest-cli.json`: This file contains configurations for the Nest CLI.
+- `package.json`: This file contains the list of project dependencies and scripts.
+- `README.md`: This file contains information about the project and instructions on how to install, run, and test the application.
+- `tsconfig.build.json` and `tsconfig.json`: These files contain TypeScript compiler options.
