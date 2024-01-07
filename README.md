@@ -74,9 +74,9 @@ Nest is [MIT licensed](LICENSE).
 
 ## Project Structure
 
-.
-├── src
-│    ├── core
+.                                            
+├── src                                      
+│    ├── core                                
 │    │   ├── permutations                    
 │    │   │   ├── permutations.service.ts     
 │    │   │   └── permutations.service.spec.ts
@@ -93,4 +93,4 @@ Nest is [MIT licensed](LICENSE).
 ├── .gitignore                               
 ├── nest-cli.json                            
 ├── package.json                             
-└── README.md                  
+└── README.md                                
