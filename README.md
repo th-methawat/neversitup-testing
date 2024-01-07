@@ -75,22 +75,22 @@ Nest is [MIT licensed](LICENSE).
 ## Project Structure
 
 .
-├── src                                           # This directory contains all the source code for the application.
+├── src
 │    ├── core
-│    │   ├── permutations                         
-│    │   │   ├── permutations.service.ts          # This file is the permutations service for the application.
-│    │   │   └── permutations.service.spec.ts     # This file is the unit tests for permutations service
-│    │   ├── odd-number                           
-│    │   │   ├── odd-number.service.ts            # This file is the odd-number service for the application.
-│    │   │   └── odd-number.service.spec.ts       # This file is the unit tests for odd-number service
-│    │   └── smiley-faces                         
-│    │   │   ├── smiley-faces.service.ts          # This file is the smiley-faces service for the application.
-│    │   │   └── smiley-faces.service.spec.ts     # This file is the unit tests for smiley-faces service
-│    ├── app.controller.ts                        # This file is the main controller for the application.
-│    ├── app.service.ts                           # This file is the main service for the application.
-│    ├── app.module.ts                            # This file is the main module for the application.
-│    └── main.ts                                  # This file is the entry point for the application.
-├── .gitignore                                    # This file specifies which files and directories to ignore in git.
-├── nest-cli.json                                 # This file contains configurations for the Nest CLI.
-├── package.json                                  # This file contains the list of project dependencies and scripts.
-└── README.md                                     # This file contains information about the project and instructions on how to install, run, and test the application.
+│    │   ├── permutations                    
+│    │   │   ├── permutations.service.ts     
+│    │   │   └── permutations.service.spec.ts
+│    │   ├── odd-number                      
+│    │   │   ├── odd-number.service.ts       
+│    │   │   └── odd-number.service.spec.ts  
+│    │   └── smiley-faces                    
+│    │   │   ├── smiley-faces.service.ts     
+│    │   │   └── smiley-faces.service.spec.ts
+│    ├── app.controller.ts                   
+│    ├── app.service.ts                      
+│    ├── app.module.ts                       
+│    └── main.ts                             
+├── .gitignore                               
+├── nest-cli.json                            
+├── package.json                             
+└── README.md                  
