@@ -74,23 +74,23 @@ Nest is [MIT licensed](LICENSE).
 
 ## Project Structure
 
-.                                            
-├── src                                      
-│    ├── core                                
-│    │   ├── permutations                    
-│    │   │   ├── permutations.service.ts     
-│    │   │   └── permutations.service.spec.ts
-│    │   ├── odd-number                      
-│    │   │   ├── odd-number.service.ts       
-│    │   │   └── odd-number.service.spec.ts  
-│    │   └── smiley-faces                    
-│    │   │   ├── smiley-faces.service.ts     
-│    │   │   └── smiley-faces.service.spec.ts
-│    ├── app.controller.ts                   
-│    ├── app.service.ts                      
-│    ├── app.module.ts                       
-│    └── main.ts                             
-├── .gitignore                               
-├── nest-cli.json                            
-├── package.json                             
-└── README.md                                
+Neversitup testing project                      
+├ src                                           
+│    ├ core                                     
+│    │   ├ permutations                         
+│    │   │   ├ permutations.service.ts          
+│    │   │   └ permutations.service.spec.ts     
+│    │   ├ odd-number                           
+│    │   │   ├ odd-number.service.ts            
+│    │   │   └ odd-number.service.spec.ts       
+│    │   └ smiley-faces                         
+│    │   │   ├ smiley-faces.service.ts          
+│    │   │   └ smiley-faces.service.spec.ts     
+│    ├ app.controller.ts                        
+│    ├ app.service.ts                           
+│    ├ app.module.ts                            
+│    └ main.ts                                  
+├ .gitignore                                    
+├ nest-cli.json                                 
+├ package.json                                  
+└ README.md                                     
