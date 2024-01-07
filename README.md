@@ -84,8 +84,8 @@ Neversitup testing project
 │    │   │   ├ odd-number.service.ts            
 │    │   │   └ odd-number.service.spec.ts       
 │    │   └ smiley-faces                         
-│    │   │   ├ smiley-faces.service.ts          
-│    │   │   └ smiley-faces.service.spec.ts     
+│    │       ├ smiley-faces.service.ts          
+│    │       └ smiley-faces.service.spec.ts     
 │    ├ app.controller.ts                        
 │    ├ app.service.ts                           
 │    ├ app.module.ts                            
